@@ -85,9 +85,9 @@ WSGI_APPLICATION = 'ecourseapisv1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'coursedbv3',
+        'NAME': 'coursedb',
         'USER': 'root',
-        'PASSWORD': 'Admin@123',
+        'PASSWORD': '050525',
         'HOST': '' # mặc định localhost
     }
 }
@@ -99,9 +99,9 @@ pymysql.install_as_MySQLdb()
 
 import cloudinary.api
 cloudinary.config(
-  	cloud_name = "dxxwcby8l",
-  	api_key = "792844686918347",
-  	api_secret = "T8ys_Z9zaKSqmKWa4K1RY6DXUJg"
+  	cloud_name = "dmia4sdki",
+  	api_key = "595166767185712",
+  	api_secret = "nBO01bBlqslGGoI_nJuswVIxj-I"
 )
 
 # Password validation
